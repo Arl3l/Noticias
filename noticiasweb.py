@@ -121,7 +121,9 @@ PALABRAS_EXCLUIDAS = [
     r"\bfuga\b", r"\bhombre\b", r"\bcolombiana\b", r"\bcolombia\b",
     r"\bhomicidio\b", r"\bpa[ií]ses\b", r"\bSan Jos[eé]\b", r"\bGran poder\b", r"\bjoven\b",r"\bfestividad\b",r"\bcaribe\b",
     r"\btablero\b",r"\bbrasil\b",r"\bconversatorio\b",r"\bperros\b",r"\boriente\b",r"\bBolívar\b"r"\bLibertadores\b",
-    r"\bviolaci[oó]n\b",r"\blenocinio\b",r"\bjaguar\b",r"\bhomenaje\b",r"\b[iI]r[aá]n\b",r"\bPolet\b"
+    r"\bviolaci[oó]n\b",r"\blenocinio\b",r"\bjaguar\b",r"\bhomenaje\b",r"\b[iI]r[aá]n\b",r"\bPolet\b",
+    r"\bmicrob[uú]s\b",r"\bBol[ií]var\b",r"\bdiscoteca\b",r"\btren\b",r"\bamazonas\b",r"\bamazon[ií]a\b",
+    r"\boso\b"
 ]
 
 PALABRAS_URGENTES = [

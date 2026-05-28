@@ -123,7 +123,7 @@ PALABRAS_EXCLUIDAS = [
     r"\btablero\b",r"\bbrasil\b",r"\bconversatorio\b",r"\bperros\b",r"\boriente\b",r"\bBolívar\b"r"\bLibertadores\b",
     r"\bviolaci[oó]n\b",r"\blenocinio\b",r"\bjaguar\b",r"\bhomenaje\b",r"\b[iI]r[aá]n\b",r"\bPolet\b",
     r"\bmicrob[uú]s\b",r"\bBol[ií]var\b",r"\bdiscoteca\b",r"\btren\b",r"\bamazonas\b",r"\bamazon[ií]a\b",
-    r"\boso\b"
+    r"\boso\b",r"\bnarcotr[aá]fico\b",r"\bhallazgo\b",
 ]
 
 PALABRAS_URGENTES = [

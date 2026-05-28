@@ -62,7 +62,7 @@ async def main():
                 tiempo_transcurrido = asyncio.get_event_loop().time() - inicio_ciclo
                 
                 if contador_ejecuciones == 0:
-                    tiempo_espera = max(0, 15 * 60 - tiempo_transcurrido)
+                    tiempo_espera = max(0, 10 * 60 - tiempo_transcurrido)
                     print(f"⏰ Primera ejecución. Esperando 15 minutos...")
                 else:
                     tiempo_espera = max(0, 10 * 60 - tiempo_transcurrido)
@@ -71,7 +71,7 @@ async def main():
                 contador_ejecuciones += 1
                 await asyncio.sleep(tiempo_espera)
                 
-                if contador_ejecuciones % 12 == 0:
+                if contador_ejecuciones % 14 == 0:
                     limpiar_cache_antiguo(horas=48)
                     
             except Exception as e:
